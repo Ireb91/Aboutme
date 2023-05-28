@@ -113,3 +113,50 @@ p {
 button:hover {
   color: #0a5ad9 !important;
 }
+
+.app-description {
+  font-size: 16px !important;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 50px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  .aboutpage h3 {
+    font-size: 20px !important;
+    text-align: center;
+    max-width: 300px !important;
+    display: block !important;
+    margin: 10px auto 0 !important;
+  }
+  .aboutpage p {
+    margin: 20px;
+    text-align: center;
+  }
+  .aboutpage img {
+    margin-bottom: 20px;
+  }
+  .aboutpage .yogurt-app {
+    margin-bottom: 0px;
+  }
+  .overviewpage h3 {
+    font-size: 20px !important;
+    text-align: center;
+    max-width: 300px !important;
+    display: block !important;
+    margin: 10px auto 0 !important;
+  }
+
+  .overviewpage h2,
+  p {
+    text-align: center;
+  }
+
+  .overviewpage .app-button {
+    display: block;
+    margin: 0 auto;
+  }
+}
